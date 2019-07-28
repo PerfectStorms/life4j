@@ -5,7 +5,6 @@ Library for the implementation of Conway's Game of Life with the ability to read
 2. [Samples](#Samples)
     - [Console](#Console)
     - [FX](#FX)
-    - [FX](#FX)
     - [Swing](#Swing)
     - [AWT](#AWT)
     - [StdDraw](#StdDraw)
