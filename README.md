@@ -3,25 +3,27 @@ Library for the implementation of Conway's Game of Life with the ability to read
 
 1. [Installation](#Installation)
 2. [Samples](#Samples)
-    - [Console](#Console)
-    - [FX](#FX)
-    - [Swing](#Swing)
-    - [AWT](#AWT)
-    - [StdDraw](#StdDraw)
 3. [Architecture](#Architecture)
 4. [Docs](#Docs)
 5. [Contribute](#Contribute)
 6. [License](#License)
 
 ## Installation
+**Maven**
+```xml
+<dependency>
+    <groupId>org.perfectstorms</groupId>
+    <artifactId>life4j</artifactId>
+    <version>1.0.RELEASE</version>
+</dependency>
+```
+**Gradle**
+```groovy
+implementation 'org.perfectstorms:life4j:1.0.RELEASE'
+```
 
 ## Samples
-
-### Console
-### FX
-### Swing
-### AWT
-### StdDraw
+Samples for [FX](), [Swing](), [AWT](), [StdDraw]().
 
 ## Architecture
 This project contains the main Game interface, as well as the LifeAbstract class, 
