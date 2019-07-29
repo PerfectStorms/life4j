@@ -1,11 +1,12 @@
 # life4j
-Library for the implementation of Conway's Game of Life with the ability to read/write coordinates using RLE algorithm.
+[![Build Status](https://travis-ci.com/perfectstorms/life4j.svg?branch=master)](https://travis-ci.com/perfectstorms/life4j)
 
-[Installation](#Installation)<br/>
-[Samples](#Samples)<br/>
-[Demos](#Demos)<br/>
-[Contribute](#Contribute)<br/>
-[License](#License)<br/>
+Library for the implementation of 
+[Conway's Game of Life](https://en.wikipedia.org/wiki/Conway's_Game_of_Life)
+with the ability to read/write coordinates using
+[RLE](https://en.wikipedia.org/wiki/Run-length_encoding)
+algorithm.
+Code samples for [FX](), [Swing](), [AWT](), [StdDraw]().
 
 ## Installation
 **Maven**
@@ -21,14 +22,16 @@ Library for the implementation of Conway's Game of Life with the ability to read
 implementation 'org.perfectstorms:life4j:1.0.RELEASE'
 ```
 
-## Samples
-Code samples for [FX](), [Swing](), [AWT](), [StdDraw]().
-
 ## Architecture
 ![Architecture](https://i.ibb.co/xSCRG2K/life4j.png)
-This project contains the main Game interface, as well as the LifeAbstract class, 
+This project contains the main 
+[Game](src/main/java/org/perfectstorms/life4j/Game.java) 
+interface, as well as the 
+[LifeAbstract](src/main/java/org/perfectstorms/life4j/AbstractLife.java) class, 
 which implements the Game and adds abstract methods, and, in turn, 
-the GameOfLife class extends the LifeAbstract class.
+the 
+[GameOfLife](src/main/java/org/perfectstorms/life4j/GameOfLife.java)
+class extends the LifeAbstract class.
 
 ## Demos
 
