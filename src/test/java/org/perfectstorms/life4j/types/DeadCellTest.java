@@ -7,6 +7,6 @@ public class DeadCellTest {
 
     @Test
     public void isLive() {
-        Assert.assertFalse(new LifeCell().isLive());
+        Assert.assertFalse(new DeadCell().isLive());
     }
 }
