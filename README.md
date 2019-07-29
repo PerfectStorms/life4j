@@ -12,14 +12,14 @@ Code samples for [FX](), [Swing](), [AWT](), [StdDraw]().
 **Maven**
 ```xml
 <dependency>
-    <groupId>org.perfectstorms</groupId>
+    <groupId>com.github.perfectstorms</groupId>
     <artifactId>life4j</artifactId>
-    <version>1.0.RELEASE</version>
+    <version>1.0</version>
 </dependency>
 ```
 **Gradle**
 ```groovy
-implementation 'org.perfectstorms:life4j:1.0.RELEASE'
+implementation 'com.github.perfectstorms:life4j:1.0'
 ```
 
 ## Architecture
