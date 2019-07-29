@@ -14,7 +14,7 @@ Code samples for [FX](), [Swing](), [AWT](), [StdDraw]().
 <dependency>
     <groupId>com.github.perfectstorms</groupId>
     <artifactId>life4j</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
 **Gradle**
