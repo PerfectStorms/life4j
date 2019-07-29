@@ -1,12 +1,11 @@
 # life4j
 Library for the implementation of Conway's Game of Life with the ability to read/write coordinates using RLE algorithm.
 
-1. [Installation](#Installation)
-2. [Samples](#Samples)
-3. [Architecture](#Architecture)
-4. [Docs](#Docs)
-5. [Contribute](#Contribute)
-6. [License](#License)
+[Installation](#Installation)<br/>
+[Samples](#Samples)<br/>
+[Demos](#Demos)<br/>
+[Contribute](#Contribute)<br/>
+[License](#License)<br/>
 
 ## Installation
 **Maven**
@@ -23,16 +22,15 @@ implementation 'org.perfectstorms:life4j:1.0.RELEASE'
 ```
 
 ## Samples
-Samples for [FX](), [Swing](), [AWT](), [StdDraw]().
+Code samples for [FX](), [Swing](), [AWT](), [StdDraw]().
 
 ## Architecture
+![Architecture](https://i.ibb.co/xSCRG2K/life4j.png)
 This project contains the main Game interface, as well as the LifeAbstract class, 
 which implements the Game and adds abstract methods, and, in turn, 
 the GameOfLife class extends the LifeAbstract class.
 
-![Architecture](https://i.ibb.co/xSCRG2K/life4j.png)
-
-## Docs
+## Demos
 
 ## Contribute
 For any problems, comments, or feedback please create an issue [here](https://github.com/perfectstorms/life4j/issues).
