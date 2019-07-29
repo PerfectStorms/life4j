@@ -19,7 +19,7 @@ Code samples for [FX](), [Swing](), [AWT](), [StdDraw]().
 ```
 **Gradle**
 ```groovy
-implementation 'com.github.perfectstorms:life4j:1.0'
+implementation 'com.github.perfectstorms:life4j:1.0-SNAPSHOT'
 ```
 
 ## Architecture
