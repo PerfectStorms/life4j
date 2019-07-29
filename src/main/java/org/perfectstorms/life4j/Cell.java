@@ -2,6 +2,12 @@ package org.perfectstorms.life4j;
 
 /**
  * The Cell interface is the main interface for all types of cells.
+ *
+ * @see Game
+ * @see AbstractLife
+ *
+ * @author Sherzod Mamadaliev
+ * @since 1.0
  */
 public interface Cell {
 

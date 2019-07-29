@@ -3,6 +3,12 @@ package org.perfectstorms.life4j;
 /**
  * The game interface is the main interface of this library
  * and contains methods for creating the basis of the game.
+ *
+ * @see AbstractLife
+ * @see Cell
+ *
+ * @author Sherzod Mamadaliev
+ * @since 1.0
  */
 public interface Game {
 
