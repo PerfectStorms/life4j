@@ -33,6 +33,33 @@ the
 [GameOfLife](src/main/java/org/perfectstorms/life4j/GameOfLife.java)
 class extends the LifeAbstract class.
 
+## Sample
+
+```java
+import org.perfectstorms.life4j.GameOfLife;
+
+public class LifeConsoleApplication {
+
+    @SuppressWarnings("InfiniteLoopStatement")
+    public static void main(String[] args) throws InterruptedException {
+        GameOfLife gol = new GameOfLife(50, 100);
+
+        gol.fill();
+        gol.generate();
+        gol.start();
+
+        while (true) {
+            gol.display();
+            gol.update();
+            gol.sleep(100); // wait 100 milliseconds
+
+            /* to clear data in ANSI console */
+            System.out.print("\033[2J\033[H"); // works only on ANSI console
+        }
+    }
+}
+```
+
 ## Demos
 ![Run Life4j from console](https://i.ibb.co/zbtXmtJ/life.gif)
 
