@@ -1,4 +1,4 @@
-package org.perfectstorms.life4j.types;
+package org.github.perfectstorms.life4j.types;
 
 import org.junit.Assert;
 import org.junit.Test;

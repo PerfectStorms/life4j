@@ -1,4 +1,4 @@
-package org.perfectstorms.life4j;
+package org.github.perfectstorms.life4j;
 
 /**
  * The game interface is the main interface of this library

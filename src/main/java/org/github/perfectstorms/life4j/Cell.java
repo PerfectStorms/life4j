@@ -1,4 +1,4 @@
-package org.perfectstorms.life4j;
+package org.github.perfectstorms.life4j;
 
 /**
  * The Cell interface is the main interface for all types of cells.

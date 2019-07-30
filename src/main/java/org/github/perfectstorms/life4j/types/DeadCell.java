@@ -1,6 +1,6 @@
-package org.perfectstorms.life4j.types;
+package org.github.perfectstorms.life4j.types;
 
-import org.perfectstorms.life4j.Cell;
+import org.github.perfectstorms.life4j.Cell;
 
 /**
  * This class is considered a dead cell of the era.

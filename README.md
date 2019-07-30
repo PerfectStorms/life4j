@@ -25,18 +25,18 @@ implementation 'com.github.perfectstorms:life4j:1.0-SNAPSHOT'
 ## Architecture
 ![Architecture](https://i.ibb.co/xSCRG2K/life4j.png)
 This project contains the main 
-[Game](src/main/java/org/perfectstorms/life4j/Game.java) 
+[Game](src/main/java/org/github/perfectstorms/life4j/Game.java) 
 interface, as well as the 
-[LifeAbstract](src/main/java/org/perfectstorms/life4j/AbstractLife.java) class, 
+[LifeAbstract](src/main/java/org/github/perfectstorms/life4j/AbstractLife.java) class, 
 which implements the Game and adds abstract methods, and, in turn, 
 the 
-[GameOfLife](src/main/java/org/perfectstorms/life4j/GameOfLife.java)
+[GameOfLife](src/main/java/org/github/perfectstorms/life4j/GameOfLife.java)
 class extends the LifeAbstract class.
 
 ## Sample
 
 ```java
-import org.perfectstorms.life4j.GameOfLife;
+import com.github.perfectstorms.GameOfLife;
 
 public class LifeConsoleApplication {
 
