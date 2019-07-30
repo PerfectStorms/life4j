@@ -34,6 +34,7 @@ the
 class extends the LifeAbstract class.
 
 ## Demos
+![Run Life4j from console](https://i.ibb.co/zbtXmtJ/life.gif)
 
 ## Contribute
 For any problems, comments, or feedback please create an issue [here](https://github.com/perfectstorms/life4j/issues).
