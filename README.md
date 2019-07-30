@@ -6,7 +6,10 @@ Library for the implementation of
 with the ability to read/write coordinates using
 [RLE](https://en.wikipedia.org/wiki/Run-length_encoding)
 algorithm.
-Code samples for [FX](), [Swing](), [AWT](), [StdDraw]().
+
+This library contains the main `Game` interface, as well as the `LifeAbstract` class, 
+which implements the `Game` and adds abstract methods, and, in turn, 
+the `GameOfLife` class extends the `LifeAbstract` class.
 
 ## Installation
 **Maven**
@@ -22,41 +25,19 @@ Code samples for [FX](), [Swing](), [AWT](), [StdDraw]().
 implementation 'com.github.perfectstorms:life4j:1.0-SNAPSHOT'
 ```
 
-## Architecture
-![Architecture](https://i.ibb.co/xSCRG2K/life4j.png)
-This project contains the main 
-[Game](src/main/java/org/github/perfectstorms/life4j/Game.java) 
-interface, as well as the 
-[LifeAbstract](src/main/java/org/github/perfectstorms/life4j/AbstractLife.java) class, 
-which implements the Game and adds abstract methods, and, in turn, 
-the 
-[GameOfLife](src/main/java/org/github/perfectstorms/life4j/GameOfLife.java)
-class extends the LifeAbstract class.
-
 ## Sample
-
-```java
-import com.github.perfectstorms.GameOfLife;
-
-public class LifeConsoleApplication {
-
-    @SuppressWarnings("InfiniteLoopStatement")
-    public static void main(String[] args) throws InterruptedException {
-        GameOfLife gol = new GameOfLife(50, 100);
-
-        gol.fill();
-        gol.generate();
-        gol.start();
-
-        while (true) {
-            gol.display();
-            gol.update();
-            gol.sleep(100); // wait 100 milliseconds
-
-            /* to clear data in ANSI console */
-            System.out.print("\033[2J\033[H"); // works only on ANSI console
-        }
-    }
+```
+GameOfLife gol = new GameOfLife(50, 100);
+gol.fill();
+gol.generate();
+gol.start();
+```
+```
+while (true) {
+    gol.display();
+    gol.update();
+    gol.sleep(100);
+    System.out.print("\033[2J\033[H"); // clears data in ANSI console
 }
 ```
 
