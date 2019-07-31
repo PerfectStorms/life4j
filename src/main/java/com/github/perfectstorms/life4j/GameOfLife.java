@@ -1,8 +1,8 @@
-package org.github.perfectstorms.life4j;
+package com.github.perfectstorms.life4j;
 
-import org.github.perfectstorms.life4j.utils.Encrypt;
-import org.github.perfectstorms.life4j.types.DeadCell;
-import org.github.perfectstorms.life4j.types.LifeCell;
+import com.github.perfectstorms.life4j.utils.Encrypt;
+import com.github.perfectstorms.life4j.types.DeadCell;
+import com.github.perfectstorms.life4j.types.LifeCell;
 
 import java.net.URL;
 import java.io.File;

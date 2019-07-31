@@ -1,4 +1,4 @@
-package org.github.perfectstorms.life4j;
+package com.github.perfectstorms.life4j;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,6 +1,6 @@
-package org.github.perfectstorms.life4j.utils;
+package com.github.perfectstorms.life4j.utils;
 
-import org.github.perfectstorms.life4j.Cell;
+import com.github.perfectstorms.life4j.Cell;
 
 public class Encrypt {
 
