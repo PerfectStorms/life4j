@@ -20,25 +20,10 @@ the `GameOfLife` class extends the `LifeAbstract` class.
     <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
+
 **Gradle**
 ```groovy
 implementation 'com.github.perfectstorms:life4j:1.0-SNAPSHOT'
-```
-
-## Sample
-```
-GameOfLife gol = new GameOfLife(50, 100);
-gol.fill();
-gol.generate();
-gol.start();
-```
-```
-while (true) {
-    gol.display();
-    gol.update();
-    gol.sleep(100);
-    System.out.print("\033[2J\033[H"); // clears data in ANSI console
-}
 ```
 
 ## Demos
@@ -49,4 +34,4 @@ For any problems, comments, or feedback please create an issue [here](https://gi
 <br>
 
 ## License
-This software is released under the [MIT License](http://mitlicense.org).
+This software is released under the [Apache-2.0](http://www.apache.org/licenses/LICENSE-2.0.txt).
