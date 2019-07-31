@@ -1,0 +1,14 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.perfectstorms.life4j.samples</groupId>
+    <artifactId>life-console</artifactId>
+    <version>1.0</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.perfectstorms</groupId>
+            <artifactId>life4j</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+    </dependencies>
+</project>
