@@ -3,9 +3,9 @@ install: true
 jdk: openjdk8
 
 before_install:
+  - chmod +x .travis/build.sh
   - chmod +x .travis/test.sh
 
 script:
-  - mvn test
-  - mvn package
-  - .travis/test.sh
+  - .travis/build.sh
+  - .travis/samples.sh
