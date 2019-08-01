@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
-# test console sample
-cd ./../samples/console/
+# test console sample application
+cd ${TRAVIS_BUILD_DIR}/samples/console/
 mvn package
