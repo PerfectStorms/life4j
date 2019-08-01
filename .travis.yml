@@ -4,7 +4,7 @@ jdk: openjdk8
 
 before_install:
   - chmod +x .travis/build.sh
-  - chmod +x .travis/test.sh
+  - chmod +x .travis/samples.sh
 
 script:
   - .travis/build.sh
