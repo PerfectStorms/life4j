@@ -4,3 +4,4 @@ jdk: openjdk8
 script:
   - mvn test
   - mvn package
+  - cd ./.travis/ && test.sh
