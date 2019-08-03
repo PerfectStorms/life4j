@@ -22,8 +22,9 @@ algorithm.
 implementation 'com.github.perfectstorms:life4j:1.0-SNAPSHOT'
 ```
 
-## Demos
-![Run Life4j from console](https://i.ibb.co/zbtXmtJ/life.gif)
+## Demo
+See the code for this console application [here](samples/console).
+![Run Life4j from console](https://i.ibb.co/zbtXmtJ/life.gif).
 
 ## Contribute
 For any problems, comments, or feedback please create an issue [here](https://github.com/perfectstorms/life4j/issues).
