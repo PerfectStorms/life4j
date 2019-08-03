@@ -7,7 +7,7 @@ with the ability to read/write coordinates using
 [RLE](https://en.wikipedia.org/wiki/Run-length_encoding)
 algorithm.
 
-## Installation
+## Install
 **Maven**
 ```xml
 <dependency>
