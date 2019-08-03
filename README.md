@@ -1,4 +1,4 @@
-# life4j
+# Life4J
 [![Build Status](https://travis-ci.com/perfectstorms/life4j.svg?branch=master)](https://travis-ci.com/perfectstorms/life4j)
 
 Library for the implementation of 
@@ -6,10 +6,6 @@ Library for the implementation of
 with the ability to read/write coordinates using
 [RLE](https://en.wikipedia.org/wiki/Run-length_encoding)
 algorithm.
-
-This library contains the main `Game` interface, as well as the `LifeAbstract` class, 
-which implements the `Game` and adds abstract methods, and, in turn, 
-the `GameOfLife` class extends the `LifeAbstract` class.
 
 ## Installation
 **Maven**
