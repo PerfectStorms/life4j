@@ -7,6 +7,9 @@ import com.github.perfectstorms.life4j.Cell;
  *
  * @see Cell
  * @see LifeCell
+ *
+ * @author Sherzod Mamadaliev
+ * @since 1.0
  */
 public class DeadCell implements Cell {
 
