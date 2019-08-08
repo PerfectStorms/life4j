@@ -301,4 +301,20 @@ public class GameOfLife extends AbstractLife {
     public void setHeight(int height) {
         this.height = height;
     }
+
+    public Cell getLife() {
+        return life;
+    }
+
+    public void setLife(Cell life) {
+        this.life = life;
+    }
+
+    public Cell getDead() {
+        return dead;
+    }
+
+    public void setDead(Cell dead) {
+        this.dead = dead;
+    }
 }
