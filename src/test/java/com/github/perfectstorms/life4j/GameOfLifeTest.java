@@ -90,6 +90,18 @@ public class GameOfLifeTest {
 
     @Test
     public void clear() {
+        // excepted
+        Cell[][] expected = {
+                {game.getDead(), game.getDead(), game.getDead()},
+                {game.getDead(), game.getDead(), game.getDead()},
+                {game.getDead(), game.getDead(), game.getDead()},
+        };
+
+        // given
+        game.clear();
+
+        // assert
+        Assert.assertArrayEquals(expected, game.getCells()[0]);
     }
 
     @Test
